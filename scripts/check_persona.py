@@ -45,6 +45,8 @@ Exit status 1 when any file has an ERROR; warnings do not fail.
 """
 from __future__ import annotations
 
+import utils.transport
+import utils.session
 import argparse
 import datetime
 import re
